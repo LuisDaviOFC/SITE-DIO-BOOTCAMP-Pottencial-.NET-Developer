@@ -1,13 +1,24 @@
 ﻿using SITE_DIO_BOOTCAMP_Pottencial_.NET_Developer.Models;
 
-bool choveu = true;
-bool estatarde = false;
+        Calculadora calc = new Calculadora();
+        calc.Somar (10, 30);
+        calc.Subtrair (10, 50);
+        calc.Multiplicar (15, 45);
+        calc.Dividir (2, 2);
+        calc.Potencia (2, 10);
+        calc.Seno(30);
+        calc.Conseno(30);
+        calc.Tangente(30);
+        calc.RaizQuadrada(9);
+        
+//bool choveu = true;
+//bool estatarde = false;
 
-if (!choveu && !estatarde){
-    Console.WriteLine("Vou pedalar!");
-}else{
-    Console.WriteLine("Vou pedalar um outro dia!");
-}
+//if (!choveu && !estatarde){
+//    Console.WriteLine("Vou pedalar!");
+//}else{
+//   Console.WriteLine("Vou pedalar um outro dia!");
+//}
 
 //bool ehMaiorDeIdade = true;
 //bool possuiAutorizacaoDoResponsavel = false;
