@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SITE_DIO_BOOTCAMP_Pottencial_.NET_Developer.Models
+namespace ExemploFundamentos.com.Models
 {
     public class Calculadora
     {
