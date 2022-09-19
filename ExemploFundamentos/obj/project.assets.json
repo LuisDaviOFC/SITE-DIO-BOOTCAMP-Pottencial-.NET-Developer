@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer.csproj",
+      "projectUniqueName": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\ExemploFundamentos\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer.csproj",
       "projectName": "SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer",
-      "projectPath": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer.csproj",
+      "projectPath": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\ExemploFundamentos\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer.csproj",
       "packagesPath": "C:\\Users\\LUISDAVIVIEIRASILVA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\obj\\",
+      "outputPath": "C:\\Users\\LUISDAVIVIEIRASILVA\\Documents\\GitHub\\SITE-DIO-BOOTCAMP-Pottencial-.NET-Developer\\ExemploFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LUISDAVIVIEIRASILVA\\AppData\\Roaming\\NuGet\\NuGet.Config"

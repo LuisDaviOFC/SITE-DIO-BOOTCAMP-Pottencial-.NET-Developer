@@ -1,4 +1,49 @@
-﻿using ExemploFundamentos.Models;
+﻿using SITE_DIO_BOOTCAMP_Pottencial_.NET_Developer.Models;
+using System;
+
+List <string> listaString = new List<string>();
+
+listaString.Add("SP");
+listaString.Add("BA");
+listaString.Add("MG");
+listaString.Add("RJ");
+
+Console.WriteLine($"Itens na minha lista:{listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Add("SC");
+Console.WriteLine($"Itens na minha lista:{listaString.Count} - Capacidade: {listaString.Capacity}");
+listaString.Remove("MG");
+Console.WriteLine($"Itens na minha lista:{listaString.Count} - Capacidade: {listaString.Capacity}");
+//Console.WriteLine("Percorrendo a lista com o For");
+//for(int contador = 0; contador < listaString.Count; contador++){
+//  Console.WriteLine($"Posição N {contador} - {listaString[contador]}");
+//}
+
+//Console.WriteLine("Percorrendo a lista com o Foreach");
+//int contadorForeach = 0;
+//foreach(string item in listaString){
+//  Console.WriteLine($"Posição N {contadorForeach} - {item}");
+//  contadorForeach++;
+//}
+
+//int[] arrayInteiros = new int[4];
+//arrayInteiros[0] = 72;
+//arrayInteiros[1] = 64;
+//arrayInteiros[2] = 50;
+//arrayInteiros[3] = 1;
+
+ //  Console.WriteLine("Percorrendo o Array com o For");
+//for(int contador = 0; contador < arrayInteiros.Length; contador++){
+//   Console.WriteLine($"Posição N {contador} - {arrayInteiros[contador]}");
+//}
+
+ //  Array.Resize( ref arrayInteiros, arrayInteiros.Length * 2);
+   
+//   Console.WriteLine("Percorrendo o Array com o Foreach");
+//int contadorForeach = 0;
+//foreach(int valor in arrayInteiros){
+//    Console.WriteLine($"Posição N {contadorForeach} - {valor}");
+//    contadorForeach++;
+//}
 
 //string opcao;
 //bool exibirMenu = true;
@@ -6,20 +51,20 @@
 //while(exibirMenu){
 //  Console.Clear();
 //  Console.WriteLine("Digite a sua opção: ");
-//  Console.WriteLine("1 - Cadastrar clientes");
-//  Console.WriteLine("2 - Buscar clientes");
-//  Console.WriteLine("3 - Apagar clientes");
+ // Console.WriteLine("1 - Cadastrar clientes");
+ // Console.WriteLine("2 - Buscar clientes");
+ // Console.WriteLine("3 - Apagar clientes");
  // Console.WriteLine("4 - Encerrar");
 
   //opcao = Console.ReadLine();
 
-//  switch(opcao){
-//    case "1":
-//    Console.WriteLine("Cadastro de Cliente");
-//    break;
-//    case "2":
-//    Console.WriteLine("Busca de Cliente");
-//    break;
+ // switch(opcao){
+  //  case "1":
+ //   Console.WriteLine("Cadastro de Cliente");
+ //   break;
+ //   case "2":
+ //   Console.WriteLine("Busca de Cliente");
+ //   break;
 //    case "3":
 //    Console.WriteLine("Apagar Cliente");
 //    break;
