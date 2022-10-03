@@ -27,7 +27,8 @@ namespace Atividade1.models
             Console.WriteLine($"Alunos do curso de: {Nome}");
 
             for(int count = 0; count < Alunos.Count; count++){
-                string texto = "N° " + count + " " + Alunos[count].NomeCompleto; // ° alt + 0176
+                //string texto = "N° " + count + " - " + Alunos[count].NomeCompleto; // codigo: alt + 0176 Resultado do codigo: °
+                string texto = $"N° {count + 1} - {Alunos[count].NomeCompleto}";
                 Console.WriteLine(texto);
             }
         }
